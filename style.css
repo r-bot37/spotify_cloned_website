@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300;1,400&display=swap');
+
+body{
+    background-color:rgb(147, 248, 147);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display:flex;
+    list-style-type: none;
+    height: 65;
+    background-color:black;
+    color: white;
+    align-items: center;
+}
+.brand {
+    display:flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+nav ul li{
+    padding: 0 12px;
+}
+
+.contain{
+    min-height: 71vh;
+    color: white;
+    background-color: black;
+    display: flex;
+    margin: 28px 200px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    padding: 20px;
+    background-image: url('listen music.jpeg');
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#mybar{
+    width: 90vw;
+    cursor: pointer;
+}
+.icons{
+    color:white;
+    margin-top: 10px;
+}
+.icons i{
+    margin: 0 10px;
+}
+.songitem{
+    height: 48px;
+    display: flex;
+    background-color: white;
+    color: black;
+    align-items: center;
+    border-radius: 30px;
+    margin: 30px 10px;
+    justify-content: space-between;
+    
+}
+.songitem img{
+    width: 40px;
+    margin:0px 10px;
+    border-radius: 30px;
+}
+.songitem span{
+    padding: 0 5px;
+}
+.time{
+    cursor: pointer;
+}
+.song5 img{
+    height: 40px;
+}
+.song2 img{
+    height: 35px;
+}
+.song3 img{
+    height: 40px;
+}
+.song4 img{
+    height: 40px;
+}
+.songs{
+    margin: 30px;
+}
+.gif img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.icons{
+    cursor: pointer;
+}
